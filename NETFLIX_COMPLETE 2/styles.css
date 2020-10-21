@@ -1,0 +1,71 @@
+/****** BODY ******/
+
+body {
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    margin: 0;
+}
+
+/****** BACKGROUND ******/
+
+#background-image {
+    background-image: url('./images/netflix-background.jpg');
+    background-repeat: no-repeat;
+    height: 1500px;
+}
+
+#black-cover {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 1500px;
+}
+
+/****** LOGO ******/
+
+#logo {
+    width: 200px;
+    padding: 20px;
+}
+
+/****** CENTER ******/
+
+#center {
+    width: 600px;
+    margin: 250px auto;
+    text-align: center;
+    color: white;
+}
+
+#center h1 {
+    font-size: 3.1rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+#description {
+    font-size: 1.5rem;
+    margin: 30px 0;
+}
+
+#input-area {
+    height: 55px;
+}
+
+#center input {
+    width: 400px;
+    height: 100%;
+    margin: 0;
+    padding: 0 0 0 10px;
+    font-size: 0.9rem;
+    border: 0;
+}
+
+#center button {
+    width: 180px;
+    height: 100%;
+    background-color: red;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: normal;
+    border: 0px;
+    border-bottom: 4px solid red;
+}
+
